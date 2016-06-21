@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Http;
 using System.Web.Http.SelfHost;
+using WebApiUtils;
 
 namespace SelfhostSample
 {
@@ -11,7 +12,7 @@ namespace SelfhostSample
             Console.WriteLine("Server is is starting……");
             string baseAddress = "http://localhost:8080/";
             var config = new HttpSelfHostConfiguration(baseAddress);
-
+            config.Filters.Add(new CrossSiteAttribute());
             config.Routes.MapHttpRoute(
                  name: "DefaultApi",
                  routeTemplate: "api/{controller}/{id}",

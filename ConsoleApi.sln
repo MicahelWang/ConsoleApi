@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfhostSample", "SelfhostS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinSelfhostSample\OwinSelfhostSample.csproj", "{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiUtils", "WebApiUtils\WebApiUtils.csproj", "{F3BF25A4-4EF8-4610-9E41-76919846BFD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BF25A4-4EF8-4610-9E41-76919846BFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BF25A4-4EF8-4610-9E41-76919846BFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BF25A4-4EF8-4610-9E41-76919846BFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BF25A4-4EF8-4610-9E41-76919846BFD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
