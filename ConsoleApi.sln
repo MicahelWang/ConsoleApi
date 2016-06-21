@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfhostSample", "SelfhostSample\SelfhostSample.csproj", "{17CB3695-52D0-4D05-A585-5EE3C92595C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinSelfhostSample\OwinSelfhostSample.csproj", "{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17CB3695-52D0-4D05-A585-5EE3C92595C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CB3695-52D0-4D05-A585-5EE3C92595C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CB3695-52D0-4D05-A585-5EE3C92595C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CB3695-52D0-4D05-A585-5EE3C92595C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8E9DE0-A1AD-41EF-99FF-65E22F60C5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
