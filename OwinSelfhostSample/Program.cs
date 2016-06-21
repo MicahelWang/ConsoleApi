@@ -8,6 +8,7 @@ namespace OwinSelfhostSample
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Server is is starting……");
             string baseAddress = "http://localhost:9000/";
 
             // Start OWIN host 
@@ -24,7 +25,9 @@ namespace OwinSelfhostSample
 
             //Console.ReadLine();
             WebApp.Start<Startup>(url: baseAddress);
-            Console.WriteLine("程序已启动,按任意键退出");
+            Console.WriteLine("Server is started");
+            Console.WriteLine("Server host is {0}.", baseAddress);
+            Console.WriteLine("Press Enter to quit.");
             Console.ReadLine();
         }
     }
