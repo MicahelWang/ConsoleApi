@@ -18,6 +18,9 @@ namespace SelfhostSample
                  routeTemplate: "api/{controller}/{id}",
                  defaults: new { id = RouteParameter.Optional }
              );
+            int maxValue = 100 * 1024 * 1024;
+            config.MaxBufferSize = maxValue;
+                 config.MaxReceivedMessageSize = maxValue;
             using (var server = new HttpSelfHostServer(config))
             {
                 server.OpenAsync().Wait();

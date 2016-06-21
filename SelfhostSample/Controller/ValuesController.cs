@@ -28,7 +28,7 @@ namespace SelfhostSample.Controller
             string root = System.Environment.CurrentDirectory;
             var path = Path.Combine(root, "App_Data");
            ;//指定要将文件存入的服务器物理位置  
-            var provider = new MultipartFormDataStreamProvider(root);
+            var provider = new CustomMultipartFormDataStreamProvider(path);
             try
             {
                 // Read the form data.  
