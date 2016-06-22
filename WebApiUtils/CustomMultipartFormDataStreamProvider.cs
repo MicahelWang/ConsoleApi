@@ -20,6 +20,7 @@ namespace WebApiUtils
             var fileName= headers.ContentDisposition.FileName.Replace("\"", string.Empty);
             var name = headers.ContentDisposition.Name.Replace("\"", string.Empty);
             var type ="."+ fileName.Split('.').Last();
+            //return name+".apk";
             return fileName;
         }
         
